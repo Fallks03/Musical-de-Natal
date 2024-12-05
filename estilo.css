@@ -18,6 +18,7 @@ body {
 }
 
 header {
+    margin-top: 0;
     .main {
         display: flex;
         flex-direction: row;
@@ -66,7 +67,7 @@ nav {
     top: -100%;
     margin-top: 100px;
     width: 100%;
-    height: 250px;
+    height: 1;
     background-color: #444;
     color: white;
     padding: 20px;
@@ -101,7 +102,16 @@ main {
 }
 
 footer {
-    /* border: red solid; */
+    margin-top: 40px;
+    a {
+        color: white;
+    }
+}
+
+hr {
+    margin-bottom: 50px;
+    background-color: white;
+    width: 90%;
 }
 
 .containerTitulo {
@@ -113,12 +123,15 @@ footer {
     h1 {
         font-size: 40px;
         font-family: 'Times New Roman', Times, serif;
-        font-weight: bolder;
+        font-weight: 700;
         margin: 3px;
         text-align: center;
     }
     h2 {
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "MonteCarlo", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
         margin: 3px;
     }
 }
@@ -148,6 +161,10 @@ footer {
 
 @media (min-width: 781px) {
     body {
+        margin: auto;
+        max-width: 781px;
+    }
+    header {
         margin: auto;
         max-width: 781px;
     }
