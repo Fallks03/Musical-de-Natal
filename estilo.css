@@ -114,6 +114,30 @@ hr {
     width: 90%;
 }
 
+.versiculo {
+    margin-bottom: 50px;
+    p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+    }
+    i {
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    } 
+}
+
+.containerImg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    img {
+        margin: auto;
+        width: 80%;
+        border: white solid;
+        border-radius: 17px;
+    } 
+}
+
 .containerTitulo {
     margin-top: 20px;
     margin-bottom: 50px;
